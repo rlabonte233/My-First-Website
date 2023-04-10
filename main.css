@@ -7,10 +7,6 @@ body {
   flex-direction: column;
 }
 
-article {
-  flex: 1;
-}
-
 header {
   background-color: #333;
   color: #fff;
@@ -43,6 +39,10 @@ section {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: #333;
   color: #fff;
   padding: 1rem;
